@@ -1,0 +1,60 @@
+### GENERAL CTWM CONFIG 
+
+## Don't grab server when popupping up menus and moving opaque windows
+NoGrabServer
+
+## Respect program-requested positions: "on", "off" or "non-zero"
+UsePPosition "non-zero"
+
+## Number of outline to be displayed when (de-)iconnifying a window
+Zoom 0
+
+## Don't use the default titlebuttons and bindings
+#NoDefaults
+
+## Place windows in a pseudo-random location: "on", "off", "all", "unmapped"
+RandomPlacement "on"
+
+## Remember if window was iconified when restarting window manager
+RestartPreviousState
+
+## Raise window when one click on it
+RaiseOnClick
+
+## Use Button 1 to raise a window
+RaiseOnClickButton 1
+
+## Automticcally raise window when cursor enters the window
+#AutoRaise 
+
+## if Autoraise, wait N ms before raising it
+#RaiseDelay 250
+
+## Transient windows get focus automatically when created
+AutoFocusToTransients
+
+## Don't send key events from the titlebar 
+## and icon managers to the application
+#NoTitleFocus
+
+# Use sloppy Focus
+#SloppyFocus
+
+# Don't use pointer-driven keyboard focus, but click to focus
+ClickToFocus
+
+
+### WINDOWS RING 
+
+WindowRing {
+##        "AppsClassName"
+}
+
+## f.wrapring warps only to windows visible in the current space
+WarpRingOnScreen
+
+## Don't raise windows when pointer is wraped to them
+NoRaiseOnWarp
+
+## Deiconify any iconified windows it encounters.
+WarpUnmapped
