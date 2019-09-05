@@ -1,7 +1,9 @@
 # ctwm-configurations
 
-Here my developed .ctwmrc.
+Here my developed .ctwmrc-min.
 You can use it by copying it into you home dir, as  ~/.ctwmrc 
+
+I recommend this .ctwmrc-min, because it is a minimum and it is well tested and running.
 
 Here the NetBSD 3.5.2.c compiled on Raspberry with NetBSD 8.1
 ![](https://raw.githubusercontent.com/spartrekus/ctwm-configurations/master/ctwm-3.5.2c-compiled-netbsd.png)
