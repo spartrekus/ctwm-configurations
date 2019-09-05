@@ -1,0 +1,63 @@
+
+RightTitleButton           "xpm:~/.cthemes/win98/winminimize.xpm"      = f.iconify
+RightTitleButton           "xpm:~/.cthemes/win98/winmaximize.xpm"      = f.fullzoom
+RightTitleButton           "xpm:~/.cthemes/win98/kill.xpm"             = f.delete
+LeftTitleButton            "xpm:~/.cthemes/win98/x.xpm"     	      = f.menu "TMenu"
+
+WorkSpaces {
+    "One"   {"#686B9F" "white" "DeepSkyBlue3" "white" "xpm:background8.xpm" }
+    "Two"   {"#686B9F" "white" "firebrick" "white"    "xpm:background1.xpm" }
+    "Three" {"#727786" "white" "DarkBlue"  "white"    "xpm:background3.xpm" }
+    "Four"  {"#8C5b7A" "white" "MidnightBlue" "white"  }
+}
+
+
+Pixmaps
+{
+    TitleHighLight "xpm:~/.cthemes/win98/blue4.xpm"
+}
+
+
+
+Color
+{
+    BorderColor           "Red"
+    DefaultBackground     "blue"
+    DefaultForeground     "gray85"
+}
+
+NoDefaults
+"e" =	        m4	: all	:!"    cd ; rox   &  "
+"e" =	        m4    : all	:!"    cd ; rox   &  "
+"x" =	        m4	: all	:!"    xterm -bg black -fg grey -fa 15 -e bash &  "
+"f" =	        m4	: all	:!"    links -g google.com &  "
+"a" =	        m4	: window	: f.fullzoom
+"w" =	        m4	: window	: f.delete 
+"r" =	        m4	: window	: f.restart 
+"1" = m4 : all : f.gotoworkspace "One" 
+"2" = m4 : all : f.gotoworkspace "Two"
+"3" = m4 : all : f.gotoworkspace "Three" 
+"4" = m4 : all : f.gotoworkspace "Four"
+ 
+
+Button1 =	: title		        : f.move
+Button1 = m	: window		: f.move
+Button3 = m	: window		: f.resize
+
+RandomPlacement "on"
+
+#RaiseOnMove
+#RaiseOnResize
+RaiseOnClick
+
+AutoRelativeResize			# intelligent resizing => easier
+TitleButtonShadowDepth    1
+TitleShadowDepth          1
+TitleButtonBorderWidth    0
+TitlePadding              3		# frame around TBobjects?
+ButtonIndent              0		# indentated TBbuttons?		
+FramePadding		  3		# frame around TB?
+
+RaiseOnClick
+ClickToFocus
+
